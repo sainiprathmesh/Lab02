@@ -7,5 +7,11 @@ public class Question6 {
         Scanner scanner = new Scanner(System.in);
         char char1 = scanner.nextLine().trim().charAt(0);
         char char2 = scanner.nextLine().trim().charAt(0);
+        if (char1 < char2) {
+            System.out.println(char1 + " " + char2);
+        } else {
+            System.out.println(char1 + " " + char2);
+        }
+        scanner.close();
     }
 }
