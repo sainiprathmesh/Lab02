@@ -10,7 +10,7 @@ public class Question6 {
         if (char1 < char2) {
             System.out.println(char1 + " " + char2);
         } else {
-            System.out.println(char1 + " " + char2);
+            System.out.println(char2 + " " + char1);
         }
         scanner.close();
     }
